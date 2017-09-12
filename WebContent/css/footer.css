@@ -1,0 +1,90 @@
+#footer{
+	clear:both;
+	height:170px;
+	background-image: url("../images/background.png");
+	font-size:12px;
+	color:white;
+	box-shadow:0px -5px 10px #f48b00;
+}
+
+.social{
+	/*border:1px solid aqua;*/
+	float:left;
+	width:30%;
+	padding:1% 0% 1% 10%;
+	background-image: url("../images/divider.png");
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.reference{
+	/*border:1px solid aqua;*/
+	float:left;
+	width:45%;
+	padding:1% 1%;	
+}
+
+.social .fb{
+	background-image:url("../images/iconFbInactive.png");
+	background-repeat:no-repeat;
+	background-position:10px 5px;
+	padding: 5px 50px;
+	display:block;
+	width:15%; /*display:block makes the whole block of empty space become hyperlink. Width:15% is to adjust/limit the area of hyperlink*/
+	/*border:1px solid red;*/
+}
+
+.social .in{
+	background-image:url("../images/iconInInactive.png");
+	background-repeat:no-repeat;
+	background-position:10px 5px;
+	padding: 5px 50px;
+	display:block;
+	width:15%; /*display:block makes the whole block of empty space become hyperlink. Width:15% is to adjust/limit the area of hyperlink*/
+}
+
+.social .tw{
+	background-image:url("../images/iconTwInactive.png");
+	background-repeat:no-repeat;
+	background-position:10px 5px;
+	padding: 5px 50px;
+	display:block;
+	width:15%; /*display:block makes the whole block of empty space become hyperlink. Width:15% is to adjust/limit the area of hyperlink*/
+}
+
+.reference .ref-info{
+	/*border:1px solid blue;*/
+	background-image:url("../images/iconRefInactive.png");
+	background-repeat:no-repeat;
+	background-position: 0px;
+	padding:10px 45px;
+}
+
+a:link {
+	text-decoration:none;
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+.fb:hover{
+	color:#f48b00;
+	background-image:url("../images/iconFbActive.png");
+}
+
+.in:hover{
+	color:#f48b00;
+	background-image:url("../images/iconInActive.png");
+}
+
+.tw:hover{
+	color:#f48b00;
+	background-image:url("../images/iconTwActive.png");
+}
+
+.ref-info:hover{
+	color:#f48b00;
+	background-image:url("../images/iconRefActive.png");
+}

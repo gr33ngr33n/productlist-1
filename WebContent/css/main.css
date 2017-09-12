@@ -1,0 +1,69 @@
+body{
+	font-family: arial,sans-serif;
+	min-width:480px;
+}
+
+.item-bottom {
+    position: relative;
+    display: block;
+    /*display: inline-block;*/
+    /*border-bottom: 1px dotted black;*/
+}
+
+.item-bottom .tooltip {
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+	margin-top:20px;
+	margin-left: -100px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.item-bottom:hover .tooltip{
+	visibility: visible;
+}
+
+
+@media(min-width:1120px){
+	#main-content #center-banner{
+		float:left;
+	}
+	
+	#main-content #center-banner #main-banner #video-media{
+		margin:0% 10%;
+	}
+
+}
+
+#main-content #center-banner #main-banner .main-item-wrapper{
+	/*border:1px solid red;*/
+}
+
+
+#main-content #center-banner #main-banner .main-item-wrapper .main-item{
+	float:left;
+	margin:0% 2%;
+}
+
+
+#main-content #center-banner #main-banner .main-item-wrapper .main-item .item-top{
+	padding:0px 5px;
+	margin-top:10px;
+}
+
+#main-content #center-banner #main-banner .main-item-wrapper .main-item .item-top img{
+	height:100px;
+}
+
+#main-content #center-banner #main-banner .main-item-wrapper .main-item .item-bottom{
+	text-align:center;
+	margin-bottom:20px;
+}
+

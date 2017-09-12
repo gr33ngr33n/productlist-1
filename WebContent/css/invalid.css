@@ -1,0 +1,19 @@
+body{
+	font-family: arial,sans-serif;
+}
+
+form .invalid{
+	color:red;
+	font-size:15px;
+	font-style:italic;
+}
+
+.divMessage{
+	color:red;
+	font-size:15px;
+	font-style:italic;
+}
+
+.errIndicate{
+	border:1px solid red;
+}
