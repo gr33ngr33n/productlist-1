@@ -12,7 +12,7 @@ public class producttypeDB {
 		
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			String connURL = "jdbc:mysql://mysql/eadassignment?user=root&password=will12345";
+			String connURL = "jdbc:mysql://172.30.214.228:3306/eadassignment?user=root&password=will12345";
 			conn = DriverManager.getConnection(connURL);
 			
 			String Qstmt_dropListProductTypeName = "SELECT * FROM product_type";
